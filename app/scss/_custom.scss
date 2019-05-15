@@ -1,0 +1,252 @@
+// Here you can add other styles
+select {
+  font-size: 12px;
+}
+.input-group-append {
+  background-color: #5e9daf;
+}
+.addFile {
+  display: none;
+}
+.worker_img img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ddd;
+}
+.master_table  tbody tr td:nth-child(3){
+	text-align: center!important
+}
+.ml-auto {
+    margin-right: 40px;
+}
+.app-header {
+  display: flex;
+  justify-content: flex-start;
+}
+.card_flex {
+  display: flex;
+  justify-content: space-around;
+}
+.card_f {
+  font-weight: 400;
+}
+.react-bs-table table td {
+  white-space: pre-wrap;
+}
+.table th{
+  padding-left: 10px!important;
+}
+.button_margin {
+  margin-top: 10px ;
+  margin-bottom: 10px;
+}
+.history_link {
+  color: #20a8d8; 
+  font-weight: 800;
+}
+.swich_link { 
+  color: red;
+  font-weight: 800;
+}
+.btn [class*=" icon-"] {
+  margin-top: -6px;
+}
+
+.sort-column div {
+  margin-right: 8px;
+}
+.filter {
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* --- PositionPage --- */
+
+.positionForm {
+  display: flex;
+  height: 45px;
+}
+.positionForm div {
+  width: 100%;
+  justify-content: flex-start;
+  display: box;
+  margin: 0px;
+}
+.positionForm > div > div {
+  max-width: 100%!important;
+}
+.positionForm .rw-widget-input {
+  box-shadow: none;
+}
+.positionForm button{
+  margin-top: 0px;
+}
+.form_modal {
+  background-color: #fff;
+}
+.position-delete {
+  visibility: hidden;
+}
+.del-butt {
+  margin-left: -10px!important;
+}
+#position-delete {
+  visibility: hidden;
+}
+.position_delete {
+  color: red;
+  padding: 6px 10px;
+  margin-left: 10px;
+  border: 1px solid;
+}
+.position_update {
+  color: #afaf03;
+  padding: 6px 10px;
+  margin-left: 10px;
+  border: 1px solid;
+}
+.position_reload {
+  color: #1d03af;
+  padding: 6px 10px;
+  margin-left: 10px;
+  border: 1px solid;
+}
+.add_position-button {
+  color: #138a22;
+  padding: 6px 10px;
+  border: 1px solid;
+}
+.position_refresh {
+  color: #1d03af;
+  padding: 6px 10px;
+  margin-left: 10px;
+  border: 1px solid;
+}
+.close_position-button {
+  color: red;
+  padding: 6px 10px;
+  border: 1px solid;
+  margin-left: 10px;
+}
+.positionForm .rw-widget-input {
+  max-height: 45px;
+}
+
+/* --- EquipmentPage --- */
+.equipment-form, .change-form {
+  margin-bottom: -45px;
+  position: relative;
+  z-index: 10;
+}
+
+.change-form .rw-widget-picker {
+  height: 2.8em;
+}
+.change-form .rw-popup-transition {
+  min-width: 200px;
+  font-size: 12px;
+}
+// -----------------------------
+.employee-info {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  width: 30%;
+}
+
+// -------- manufacturePage ----------
+#manufacture-page .react-bs-table-add-btn {
+display: none;
+}
+.c_g {
+  color: green;
+}
+.c_b {
+  color: blue;
+}
+.fa_b {
+  font-weight: 800;
+  font-size: 15px;
+}
+form ul li {
+  padding: 2px 15px;
+}
+.complited label {
+  min-width: 200px;
+}
+.manufacture-card-body {
+  display: flex;
+  justify-content: space-between;
+}
+.date-picker {
+  display: flex;
+  flex-direction: column;
+}
+.DayPicker {
+  font-size: 13px;
+}
+.manufacture-card-body .form-control{
+  max-width: 350px;
+  border-radius: 0px 5px 5px 0px;
+}
+.modal-content {
+  min-height: 400px;
+}
+// ----------------------------------------------------------------- //
+.storag-form label{
+  min-width: 255px;
+}
+.del-butt-marg {
+  width: 25px;
+  height: 25px;
+  margin-left: -8px;
+  background-image: url(./icons_delete.svg);
+  background-position: center center;
+}
+.pencil_blue {
+  width: 25px;
+  height: 25px;
+  background-image: url(./pencil.png);
+  background-position: center center;
+}
+
+.blue {
+  color: #20a8d8;
+}
+.form_process {
+  display: flex;
+  justify-content: flex-start;
+}
+::-webkit-input-placeholder {font-size: 12px;}
+::-moz-placeholder          {font-size: 12px;}/* Firefox 19+ */
+:-moz-placeholder           {font-size: 12px;}/* Firefox 18- */
+:-ms-input-placeholder      {font-size: 12px;}
+.react-bs-table-tool-bar {
+  margin-top: 15px;
+}
+.select_post {
+  width: 100%;
+}
+.employees_form select{
+  width: 66%;
+}
+.shift {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.shift1 {
+  margin-top: 20px;
+}
+.shift_form .rw-widget-input{
+   border: 0; 
+}
+.td-header {
+  background-color: #faebd7;
+}
+.td-header1 {
+  background-color: #acffe3;
+}
+
+.display_none {
+  display: none;
+}
